@@ -1,0 +1,261 @@
+@media screen and (max-width: 1200px) {
+	header, body, footer {
+		width: 1200px; 
+	}
+	.history p {
+		width: 400px;
+	}
+	
+}
+@media screen and (max-width: 960px) {
+	header, body, footer {
+		width: 960px; 
+	}	
+	.about{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		padding: 15px 110px;
+		margin-bottom: 100px;
+	}
+	.history{
+		margin: 0;
+	}
+	.food-images{
+		display: flex;
+		justify-content: center;
+		padding: 0;
+	}
+	.food-images__item{
+		margin-right: 10px;
+	}
+	.end img{
+	display: none;
+	}
+	.today{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		background-size: 100% 400px;
+		padding-bottom: 10px 0;
+
+	}
+	.food{
+		margin-bottom: 15px;		
+	}
+	.metr1{
+		margin-right: 0;
+	}
+	.metr2{
+		margin-left: 0;
+	}
+	.card1, .card2{
+		display: flex;
+		justify-content: center;
+	}
+	
+	.credits{
+		border-bottom: 1px solid #fff;
+		padding-bottom: 10px;
+		display: flex;
+		justify-content: center;
+	}
+	.history h2{
+		display: flex;
+		justify-content: center;
+	}
+	.history p{
+		margin: 0 auto;
+		text-align: center;
+		margin-bottom: 15px;
+		width: 500px;
+		text-align: justify;
+	}
+	.read{
+		display: flex;
+		justify-content: center;
+	}
+	.history__read{
+		margin: 0;
+		margin-top: 15px;
+		text-align: center;
+	}
+	
+}
+@media screen and (max-width: 768px) {
+	header, body, footer {
+		width: 768px; 
+	}
+	
+	.book{
+		display: none;
+	}
+	.about{
+		padding: 15px 50px;
+	}
+	.history p{
+		width: 600px;
+	}
+
+}
+@media screen and (max-width: 425px) {
+
+	.book{
+		display: none;
+	}
+	.about{
+		padding: 15px 10px;
+	}
+	.hamburger-btn{
+		display: block;
+		cursor: pointer;
+		z-index: 2;
+	}
+	.hamburger1{
+		display: block;
+		cursor: pointer;
+		width: 36px;
+		height: 12px;
+		float: right;
+		margin: 6px;
+		position: relative;
+		border-top: 2px solid #fff;
+		border-bottom: 2px solid #fff;
+		z-index: 2;
+		position: fixed;
+	}
+	.hamburger1:after{
+		content: "";
+		position: absolute;
+		display: block;
+		right: 0;
+		left: 0;
+		top: 5px;
+		height: 2px;
+		background: #fff;
+	}
+	.menu-hide {
+		background: #444;
+	    position: fixed;
+	    top: 0;
+	    right: -455px;
+	    transition: right 0.3s linear;
+	    height: 365px;
+	}
+	.menu-hide li{
+	 	position: relative;
+		display: block;
+		padding-left: 10px;
+		border-top: 1px solid #111;
+		border-bottom: 1px solid #000;
+		background: linear-gradient(135deg, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+	}
+	.menu-hide li:hover{
+		background: linear-gradient(135deg, rgba(0,0,0,0) 0%,rgba(75,20,20,0.65) 100%);
+	}
+	.menu__item a{
+		color: #fff;
+		font-size: 20px;
+		margin-right: 125px;
+		line-height: 250%;
+		padding: 5px 0;
+	}
+	.menu__item a:hover{
+		color: #708090;
+	}
+	.mane-menu{
+		background: #444;
+	    right: 0;
+	    top: 11px;
+	    position: fixed;
+	    transition: right 0.3s linear;
+	}
+	.mane-menu li{
+		padding-left: 10px;
+		border-top: 1px solid #111;
+ 		border-bottom: 1px solid #000;
+ 		background: linear-gradient(135deg, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+	}
+	.nav-menu{
+		display: block;
+		position: absolute;
+		transition: right 0.3s linear;
+	}
+	.title {		
+		margin: 0;
+		margin: 0 5%;
+		line-height: 10px;
+		text-align: center;
+		font-size: 60px;
+	}
+	.title__mane{
+		font-size: 1.2em;
+		display: flex;
+		justify-content: center;
+	}
+	.title__desk{
+		margin-top: 0;
+		font-size: 0.8em;
+	}
+	.history p{
+		margin: 0 auto;
+		text-align: justify;
+		margin-bottom: 15px;
+		
+		font-size: 20px;
+		padding: 0 10px;
+	}
+	.history h2{
+		font-size: 26px;
+		text-align: center;
+	}
+	.today{
+		background: none;
+		padding: 0;
+	}
+	.food1{
+		display: none;
+	}
+	.food2{
+		display: flex;
+		justify-content: center;
+		margin: 0;
+		width: 50%;
+		height: 50%;
+	}
+	.food__delivery{
+		display: none;
+	}
+	.food__ditails{
+		display: flex;
+		justify-content: space-between;
+	}
+	.food__price{
+		margin: 0;
+	}
+	.food3{
+		display: none;
+	}
+	.food4{
+		display: none;
+	}
+	.card1{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+	.card2{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+	.credits{
+		padding: 10px 10px;
+	}
+	.phone__text{
+		display: none;
+	}
+}
+@keyframes move {
+  	100% { transform: translate(-140px, 0);}
+}
